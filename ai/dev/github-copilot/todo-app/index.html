@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f6f7f2">
-    <title>Little List — A little space to get things done</title>
+    <meta name="theme-color" content="#090a21">
+    <title>Little List — Ready, set, get things done!</title>
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" defer></script>
   </head>
@@ -12,52 +12,52 @@
     <div class="page">
       <header class="site-header">
         <a class="brand" href="index.html" aria-label="Little List home">
-          <span class="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none"><path d="m6 12 4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </span>
-          <span>little list<span class="brand-period">.</span></span>
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>LITTLE LIST<span class="brand-period">.</span></span>
         </a>
-        <span class="header-note">A LITTLE LESS ON YOUR MIND</span>
+        <span class="header-note"><span class="header-dot"></span> PLAYER ONE / READY</span>
       </header>
 
       <main>
         <section class="intro" aria-labelledby="page-title">
-          <div class="eyebrow"><span></span> YOUR SPACE TO GET THINGS DONE</div>
-          <h1 id="page-title">Make room for<br><em>what matters.</em></h1>
-          <p>Big plans, little tasks, and everything in between.<br class="desktop-break"> Let's take it one thing at a time.</p>
+          <div class="eyebrow"><span></span> INSERT AMBITION <span></span></div>
+          <h1 id="page-title">READY, SET,<br><em>GET IT DONE.</em></h1>
+          <p>Big plans. Little tasks. You've got this.<br class="desktop-break"> Let's clear the board, one task at a time.</p>
+          <div class="arcade-trail" aria-hidden="true">
+            <span class="trail-player"></span><span class="pellet"></span><span class="pellet"></span><span class="pellet"></span>
+            <span class="ghost ghost-pink"><i></i></span><span class="ghost ghost-cyan"><i></i></span><span class="ghost ghost-orange"><i></i></span>
+          </div>
         </section>
 
         <section class="list-card" aria-labelledby="list-title">
           <div class="card-heading">
             <div>
-              <span class="section-label">THE SIMPLE STUFF</span>
-              <h2 id="list-title">Your to-do list <span aria-hidden="true">✳</span></h2>
+              <span class="section-label">PLAYER 01 / MISSION CONTROL</span>
+              <h2 id="list-title">YOUR TO-DO LIST <span aria-hidden="true">✦</span></h2>
             </div>
             <span class="task-count" id="task-count" aria-live="polite">0 ITEMS</span>
           </div>
 
           <form id="todo-form" class="add-form">
             <label class="sr-only" for="todo-input">Add a task</label>
-            <input id="todo-input" name="task" type="text" placeholder="What's on your mind?" autocomplete="off" required>
+            <input id="todo-input" name="task" type="text" placeholder="Enter your next mission..." autocomplete="off" required>
             <button type="submit"><span aria-hidden="true">+</span> Add task</button>
           </form>
 
-          <div class="list-heading"><span>YOUR TASKS</span><span>ONE STEP AT A TIME</span></div>
+          <div class="list-heading"><span>YOUR TASKS</span><span>LET'S GO!</span></div>
           <ul id="todo-list" class="todo-list" aria-label="Your tasks"></ul>
           <div id="empty-state" class="empty-state">
-            <div class="empty-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none"><rect x="10" y="8" width="28" height="32" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M17 18h14M17 24h14M17 30h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="m31 32 2 2 4-4" stroke="#718a43" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <h3>A fresh start.</h3>
-            <p>Nothing on your list yet. Add a task above<br> and make a little progress today.</p>
+            <div class="empty-icon" aria-hidden="true"><span></span></div>
+            <h3>READY PLAYER ONE?</h3>
+            <p>Your board is clear! Add a task above<br> to start your next adventure.</p>
           </div>
-          <div class="card-footer"><span class="footer-sparkle" aria-hidden="true">✦</span> A LITTLE PROGRESS IS STILL PROGRESS</div>
+          <div class="card-footer"><span class="footer-sparkle" aria-hidden="true">✦</span> EVERY LITTLE TASK IS A BIG WIN <span class="footer-sparkle" aria-hidden="true">✦</span></div>
         </section>
       </main>
 
       <footer class="site-footer">
-        <span>MADE FOR YOUR EVERYDAY</span>
-        <span>TAKE IT EASY <span aria-hidden="true">✳</span></span>
+        <span>1UP &nbsp; • &nbsp; LITTLE LIST</span>
+        <span>KEEP PLAYING <span aria-hidden="true">✦</span></span>
       </footer>
     </div>
   </body>
